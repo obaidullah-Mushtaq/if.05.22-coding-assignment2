@@ -21,7 +21,9 @@ parent(eve, john).
 2. Express the query "Who is the parent of pat?" in Prolog
 3. Express the query "Does lisa have a child?"
 4. Add two clauses `male/1` and `female/1` to the knowledge base. The decision who is male and who is female of the persons in your base is up to you.
+4. Add two rules `mother/2` and `father/2` to the knowledge base where mother is a parent who is female and father is a parent who is male.
 4. Add a rule `grandparent/2` to your knowledge base which expresses that `GP` (the first argument) is a grandparent to `GC` (the second argument).
+4. Add two rules `grandmother/2` and `grandfather/2` to the knowledge base where grandmother is a grandparent who is female and grandfather is a grandparent who is male.
 
 ## Hints
 - The notation `nameOfClause/n` is the common way to describe a clause `nameOfClause` which shall have an arity of `n`. Example: `grandparent/2` means a clause called `grandparent` with two arguments, say `GP` (grandparent) and `GC` (grandchild).
