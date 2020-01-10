@@ -17,7 +17,8 @@ Programs can be edited with your favourite editor. To load a program named `firs
 If one wants to start with only a few predicates directly typed into the terminal one can use the predefined file `user`. So we type `[user].` to start our first experiments.
 
 ### First predicates
-We specify some family relations (which is kind of Hello World to Prolog programs). So we start of with specifying some persons and state whether they are man or woman.
+We specify some properties of animals (called Fritz and Burli). Please note that Prolog is case sensitive, i. e., you have to take care of upper and lower case letters.
+
 ```
 croaks(fritz).
 eatsFlies(fritz).
