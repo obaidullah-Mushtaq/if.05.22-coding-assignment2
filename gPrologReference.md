@@ -26,7 +26,7 @@ chirps(burli).
 sings(burli).
 ```
 
-To exit the "input mode", we type `Ctrl D`. Now we can ask the prolog system whether the persons given are man or woman:
+To exit the "input mode", we type `Ctrl D`. Now we can ask the prolog system whether an animal given croaks or eats flies:
 
 ```
 ?- croaks(fritz).
