@@ -3,7 +3,7 @@
 ## GNU Prolog Reference Manual
 
 ### How to Get and Install
-Download from the [GNU Prolog Website](http://www.gprolog.org). It is available as binary for Windows and macOS. One can also obtain the source code for the ones who really want to know it. Although the binaries are pretty old, they still work under the current versions of Windows and macOS.
+Download from the [GNU Prolog Website](http://www.gprolog.org). It is available as binary for Windows and macOS. One can also obtain the source code for the ones who really want to know it.
 
 
 ### Starting and Stopping
