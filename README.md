@@ -1,4 +1,4 @@
-### IF.05.22 Theoretical Informatics -- Winter 2017
+### IF.05.22 Theoretical Informatics
 # Assignment 6: Coding Assignment
 
 
