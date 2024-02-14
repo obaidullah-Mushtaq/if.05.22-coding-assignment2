@@ -3,7 +3,7 @@
 ## GNU Prolog Reference Manual
 
 ### How to Get and Install
-Download from the [GNU Prolog Website](http://www.gprolog.org). It is available as binary for Windows and macOS. One can also obtain the source code for the ones who really want to know it. Although the binaries are pretty old, they still work under the current versions of Windows and macOS.
+Download from the [GNU Prolog Website](http://www.gprolog.org). It is available as binary for Windows and macOS. One can also obtain the source code for the ones who really want to know it.
 
 
 ### Starting and Stopping
@@ -17,7 +17,8 @@ Programs can be edited with your favourite editor. To load a program named `firs
 If one wants to start with only a few predicates directly typed into the terminal one can use the predefined file `user`. So we type `[user].` to start our first experiments.
 
 ### First predicates
-We specify some family relations (which is kind of Hello World to Prolog programs). So we start of with specifying some persons and state whether they are man or woman.
+We specify some properties of animals (called Fritz and Burli). Please note that Prolog is case sensitive, i. e., you have to take care of upper and lower case letters.
+
 ```
 croaks(fritz).
 eatsFlies(fritz).
@@ -25,7 +26,7 @@ chirps(burli).
 sings(burli).
 ```
 
-To exit the "input mode", we type `Ctrl D`. Now we can ask the prolog system whether the persons given are man or woman:
+To exit the "input mode", we type `Ctrl D`. Now we can ask the prolog system whether an animal given croaks or eats flies:
 
 ```
 ?- croaks(fritz).
